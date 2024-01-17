@@ -44,17 +44,25 @@ console.log(foods)
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
+var email = {
+  sender: "laurelbonal@gmail.com",
+  recipient: "larissamariner@gmail.com",
+  subject: "sams cheer",
+  sent: "1/16/2024",
+  recieved: true
+}
 // Write code that logs your email object to the terminal.
+
+console.log(email)
 
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email))
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email))
 
 
 // -------------------
@@ -92,8 +100,8 @@ posts = [
   }
 ];
 
-console.log(posts);
-console.log(posts[0]);
+//console.log(posts);
+//console.log(posts[0]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -105,3 +113,29 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email = [
+  {
+  sender: "laurelbonal@gmail.com",
+  recipient: "larissamariner@gmail.com",
+  subject: "sams cheer",
+  sent: "1/16/2024",
+  recieved: true
+}, 
+{
+  sender: "helloworld@gmail.com",
+  recipient: "another@gmail.com",
+  subject: "subject",
+  sent: "1/17/2024",
+  recieved: false
+},
+{
+  sender: "thisemail@gmail.com",
+  recipient: "thatemail@gmail.com",
+  subject: "i love coding",
+  sent: "1/17/2024",
+  received: true
+}
+];
+
+console.log(email)
